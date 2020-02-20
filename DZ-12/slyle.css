@@ -1,0 +1,31 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.sphere{
+    background: red;
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+}
+.button1{
+    color: #fff; /* цвет текста */
+    text-decoration: none; /* убирать подчёркивание у ссылок */
+    user-select: none; /* убирать выделение текста */
+    background: rgb(2,75,56); /* фон кнопки */
+    padding: .7em 1.5em; /* отступ от текста */
+    outline: none; /* убирать контур в Mozilla */
+}
+.button1:hover { background: rgb(2,95,76); } /* при наведении курсора мышки */
+.button1:active { background: rgb(2,15,0); } /* при нажатии */
+
+.button2{
+    color: #fff; /* цвет текста */
+    text-decoration: none; /* убирать подчёркивание у ссылок */
+    user-select: none; /* убирать выделение текста */
+    background: rgb(2,75,56); /* фон кнопки */
+    padding: .7em 1.5em; /* отступ от текста */
+    outline: none; /* убирать контур в Mozilla */
+}
+.button2:hover { background: rgb(2,95,76); } /* при наведении курсора мышки */
+.button2:active { background: rgb(2,15,0); } /* при нажатии */
